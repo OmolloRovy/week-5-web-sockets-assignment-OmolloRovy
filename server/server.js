@@ -11,7 +11,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: { // CORS configuration for Socket.IO
-        origin: 'http://localhost:5173',
+        origin: '*',
         methods: ["GET", "POST"], // Explicitly allow POST for Socket.IO if needed, though typically done by default
         credentials: true // Important for passing cookies/auth headers
     }
