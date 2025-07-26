@@ -75,7 +75,7 @@ export default function Home({ user }) {
         <div className="flex h-screen">
             <aside className="w-1/4 bg-gray-200 p-4 text-gray-800"> {/* Changed text-white to text-gray-800 for better contrast */}
                 <h2 className='text-lg font-bold mb-2'>Chat Rooms</h2>
-                {/* Add a form or button for creating new rooms */}
+                {/* Add a form or button for c reating new rooms */}
                 <div className="mb-4">
                     <input
                         type="text"
